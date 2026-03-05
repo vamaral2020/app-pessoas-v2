@@ -123,6 +123,7 @@ func (h *Handler) listPessoas(writer http.ResponseWriter, request *http.Request)
 		})
 		return
 	}
+
 	writeJSON(writer, http.StatusOK, map[string]any{
 		"pessoas": pessoas,
 		"limit":   limit,

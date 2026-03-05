@@ -36,20 +36,21 @@ Projeto criado com objetivo de estudo da linguagem Go e seus conceitos fundament
 ---
 
 ## 📂 Estrutura do Projeto
+```text
 app-pessoa/
-│
 ├── main.go
 ├── go.mod
 ├── handler/
-│ └── pessoa_handler.go
+│   └── pessoa_handler.go
 ├── service/
-│ └── pessoa_service.go
+│   └── pessoa_service.go
 ├── repository/
-│ └── pessoa_repository.go
+│   └── pessoa_repository.go
 ├── model/
-│ └── pessoa.go
+│   └── pessoa.go
 └── database/
-└── connection.go
+    └── connection.go   
+```
 
 
 Arquitetura simples seguindo separação de responsabilidades:
